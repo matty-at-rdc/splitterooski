@@ -1,0 +1,20 @@
+# PNP
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Classic
+legacy/node_modules
+legacy/.yarn/*
+
+!legacy/.yarn/cache
+!legacy/.yarn/patches
+!legacy/.yarn/plugins
+!legacy/.yarn/releases
+!legacy/.yarn/sdks
+!legacy/.yarn/versions
+
