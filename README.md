@@ -1,8 +1,20 @@
-# Splitterooski
+# Splitterooski 🖖
 
 ## What is this? 
 
-This project show how to maintain two incompatible approaches to yarn 🧶 simultaneosuly.
+This project shows how to maintain two incompatible approaches to yarn 🧶 simultaneosuly.
+
+## How do I use this?
+
+Start by cloning the repo.
+- Top level directory
+    - `sh run.sh` 😊 -- _happy_
+    - You just used an external node module without installing it!
+- Legacy directory
+    - `cd legacy`
+    - `sh run.sh` 💥
+    - `yarn install` -- __legacy/node_modules created__
+    - `sh run.sh` 😊 -- _happy_
 
 ## What to notice?
 
